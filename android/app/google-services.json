@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "995304489032",
+    "project_id": "carrent-muc",
+    "storage_bucket": "carrent-muc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995304489032:android:f465e0cad7dc03c1c0187d",
+        "android_client_info": {
+          "package_name": "com.example.carrent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995304489032-2al5h4kvv665nghvcne9riehbiu66l9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRNltaf1gAoIBVh2elfeuqmeLDBZoMR_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995304489032-2al5h4kvv665nghvcne9riehbiu66l9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

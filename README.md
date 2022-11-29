@@ -1,6 +1,6 @@
 # carrent
 
-A new Flutter project.
+Assignment project to create a car rental booking app, note*this is not completed*
 
 ## Getting Started
 

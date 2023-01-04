@@ -3,6 +3,7 @@
 import 'dart:ffi';
 
 import 'package:carrent/Cars/car.dart';
+import 'package:carrent/pages/profile.dart';
 import 'package:carrent/read%20data/get_username.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -46,7 +47,12 @@ class _HomePageState extends State<HomePage> {
           title: Center(child: Text('C A R R E N T')),
           actions: [
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => UserProfile()),
+                );
+              },
               icon: Icon(Icons.person),
             )
           ],
